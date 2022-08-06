@@ -6,7 +6,7 @@
     "path": "gms2-localization.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "gms2_localization",
+  "name": "gms2_mofile",
   "tags": [],
   "resourceType": "GMScript",
 }
