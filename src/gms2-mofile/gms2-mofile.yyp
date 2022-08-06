@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"gms2_localization","path":"scripts/gms2_localization/gms2_localization.yy",},"order":1,},
+    {"id":{"name":"gms2_mofile","path":"scripts/gms2_mofile/gms2_mofile.yy",},"order":1,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -31,7 +31,7 @@
     "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
-  "name": "gms2-localization",
+  "name": "gms2-mofile",
   "tags": [],
   "resourceType": "GMProject",
 }
