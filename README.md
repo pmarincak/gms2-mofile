@@ -40,7 +40,7 @@ Samples can be viewed [here](https://github.com/pmarincak/gms2-mofile/tree/main/
 ### GML
 1. Add **MofileGameStart()** to the GameStart of an object that is created at the start of the game.
 2. Add  **MofileGameEnd()** to the GameEnd of an object that is destroyed at the end of the game.
-3. Load your mofile at any point after MofileGameStart using **MofileLoadLanguageFile("sample.po")**
+3. Load your mofile at any point after MofileGameStart using **MofileLoadLanguageFile("sample.mo")**
 
 ## Configuration
 
