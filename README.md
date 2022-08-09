@@ -61,7 +61,7 @@ If you would like to rename **_** or **_MofileMarkTranslation**:
 
 ## Pulling Translation Strings From Code
 
- 1. Open your Po File. (i.e. sample.po) Recommend using [PoEdit](https://poedit.net/).
+ 1. Open your Po File. (i.e. sample.po) Recommend using [PoEdit](https://poedit.net/) or [Online PO editor](https://pofile.net/free-po-editor).
  2. Press **Update From Code**
  3. New strings added and removed will be visible
  4. Save to generate a new MoFile.
