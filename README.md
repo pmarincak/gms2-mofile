@@ -15,9 +15,10 @@ MoFile loader for Gamemaker Studio 2.3+
 
 ## Requirements
 
-|| Supported Version |
+|Release Version| Gamemaker Version |
 |--|--|
-| Gamemaker Studio 2 | v2.3.0.x |
+| 1.0.0+ | v2.3.0.x+ |
+| 1.1.0+ | v2022.09.x.y+ |
 
 ## Download
 

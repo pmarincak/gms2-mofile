@@ -203,31 +203,5 @@ int main( int, char** argv )
         return EXIT_FAILURE;
     }
 }
-
-#elif defined(_USRDLL) && defined(WIN32)
-
-#include <windows.h>
-extern "C"
-int WINAPI DllMain( DWORD reason, LPVOID)
-{
-    switch (reason)
-    {
-        case DLL_THREAD_ATTACH:
-        case DLL_PROCESS_ATTACH:
-            {
-#if defined (_DEBUG) && defined(_MSC_VER)
-            long flag = _CrtSetDbgFlag(_CRTDBG_REPORT_FLAG);
-            flag |= _CRTDBG_LEAK_CHECK_DF | _CRTDBG_CHECK_ALWAYS_DF;
-            _CrtSetDbgFlag(flag);
-#endif /* _MSC_VER && _DEBUG */
-            break;
-            }
-        default:
-            return FALSE;
-    };
-
-    return TRUE;
-}
-
 #endif /* Compilation-Mode */
 
