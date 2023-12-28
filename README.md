@@ -17,8 +17,8 @@ MoFile loader for Gamemaker Studio 2.3+
 
 |Release Version| Gamemaker Version |
 |--|--|
-| 1.0.0+ | v2.3.0.x+ |
-| 1.1.0+ | v2022.09.x.y+ |
+| 1.0.x | v2.3.0.x+ |
+| 1.1.x | v2022.09.x.y+ |
 
 ## Download
 
@@ -59,6 +59,22 @@ If you would like to rename **_** or **_MofileMarkTranslation**:
  3. Translation > Properties > Sources keywords
  4. Change "_" to "TL" and "_MofileMarkTranslation" to "TL_Marker"
  5. Press Ok.
+ 
+### PoEdit
+If you would like to use [PoEdit](https://poedit.net/) to pull translation strings from your code, you will need to create a custom extractor as follows:
+
+ 1. Open PoEdit.
+ 2. File > Preferences > Extractors
+ 3. Click the + at the bottom.
+ 4. Create the Extractor with the following configuration and click OK:
+ |Name|Value|
+|--|--|
+| Language | GML
+| Extensions | *.gml
+| Extraction Command | xgettext --language=C --add-comments=TRANSLATORS: --force-po -o %o %C %K %F
+| Keywords List | -k%k
+| Input File List | %f
+| Charset | --from-code=%c
 
 ## Pulling Translation Strings From Code
 
