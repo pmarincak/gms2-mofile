@@ -67,7 +67,8 @@ If you would like to use [PoEdit](https://poedit.net/) to pull translation strin
  2. File > Preferences > Extractors
  3. Click the + at the bottom.
  4. Create the Extractor with the following configuration and click OK:
- |Name|Value|
+
+|Name|Value|
 |--|--|
 | Language | GML
 | Extensions | *.gml
